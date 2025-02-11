@@ -34124,10 +34124,6 @@ img, video {
   height: 2.5rem;
 }
 
-.h-15 {
-  height: 3.75rem;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -34178,10 +34174,6 @@ img, video {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-15 {
-  width: 3.75rem;
 }
 
 .w-16 {
@@ -34368,6 +34360,10 @@ img, video {
 
 .animate-animate-pulse {
   animation: 3s linear infinite animate-pulse;
+}
+
+.select-none {
+  user-select: none;
 }
 
 .grid-cols-1 {
@@ -34809,6 +34805,11 @@ img, video {
   padding-right: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-1 {
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -34847,6 +34848,11 @@ img, video {
 .py-25px {
   padding-top: 1.5625rem;
   padding-bottom: 1.5625rem;
+}
+
+.py-3 {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
 .py-30px {
@@ -34986,8 +34992,16 @@ img, video {
   text-align: end;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .\!font-sora {
   font-family: Sora, sans-serif !important;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .font-sora {
@@ -35166,6 +35180,17 @@ img, video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-gray-900\/10 {
+  --tw-shadow-color: #1118271a;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .outline-none {
@@ -36408,6 +36433,11 @@ body.loaded {
   border-color: rgb(135 80 247 / var(--tw-border-opacity, 1));
 }
 
+.hover\:bg-green-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:bg-primary-color:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(135 80 247 / var(--tw-bg-opacity, 1));
@@ -36445,6 +36475,17 @@ body.loaded {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-gray-900\/20:hover {
+  --tw-shadow-color: #11182733;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .hover\:\[background-size\:100\%_1px\]:hover {
   background-size: 100% 1px;
 }
@@ -36471,9 +36512,43 @@ body.loaded {
   border-color: rgb(135 80 247 / var(--tw-border-opacity, 1));
 }
 
+.focus\:opacity-\[0\.85\]:focus {
+  opacity: .85;
+}
+
+.focus\:shadow-none:focus {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid #0000;
   outline-offset: 2px;
+}
+
+.active\:opacity-\[0\.85\]:active {
+  opacity: .85;
+}
+
+.active\:shadow-none:active {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.disabled\:pointer-events-none:disabled {
+  pointer-events: none;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: .5;
+}
+
+.disabled\:shadow-none:disabled {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .group:hover .group-hover\:visible {
@@ -36614,6 +36689,11 @@ body.loaded {
   background-color: rgb(15 7 21 / var(--tw-bg-opacity, 1));
 }
 
+.dark\:bg-green-600:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+
 .dark\:bg-primary-color-light:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(20 12 28 / var(--tw-bg-opacity, 1));
@@ -36650,6 +36730,11 @@ body.loaded {
 .dark\:hover\:border-primary-color:hover:is(.dark *) {
   --tw-border-opacity: 1;
   border-color: rgb(135 80 247 / var(--tw-border-opacity, 1));
+}
+
+.dark\:hover\:bg-green-700:hover:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
 }
 
 .dark\:hover\:bg-primary-color:hover:is(.dark *) {
@@ -37366,10 +37451,6 @@ body.loaded {
 
   .xl\:gap-x-30px {
     column-gap: 1.875rem;
-  }
-
-  .xl\:gap-x-35px {
-    column-gap: 35px;
   }
 
   .xl\:gap-x-50px {

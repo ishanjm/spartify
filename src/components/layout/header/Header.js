@@ -28,25 +28,7 @@ const Header = ({ isSticky }) => {
         <div className="container">
           <div className="flex flex-wrap justify-between items-center">
             {/* <!-- logo and contact email --> */}
-            <div>
-              <ul className="flex items-center gap-x-15px xl:gap-x-35px">
-                <li>
-                  <Logo isSticky={isSticky} />
-                </li>
-                <li className="hidden md:block">
-                  <Link
-                    href="mailto:mail@gerolddesign.com"
-                    className={`text-size-15 font-medium ${
-                      isInnerPage && !isSticky
-                        ? "text-white-color"
-                        : "text-seondary-color dark:text-white-color"
-                    } `}
-                  >
-                    mail@gerolddesign.com
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <Logo isSticky={isSticky} />
             {/* <!-- main menu --> */}
             <Navbar
               isActiveMobileMenu={isActiveMobileMenu}

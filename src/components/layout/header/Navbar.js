@@ -1,6 +1,7 @@
 "use client";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-import ButtonPrimary2 from "@/components/shared/buttons/ButtonPrimary2";
+//import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import ButtonPrimary3 from "@/components/shared/buttons/ButtonPrimary3";
+import ButtonPrimary from "@/components/shared/spartify/ButtonPrimary";
 import { useHeaderContext } from "@/context_api/HeaderContext";
 import getNavItems from "@/libs/getNavItems";
 import indexingAndActiveLink from "@/libs/indexingAndActiveLink";
@@ -36,13 +37,9 @@ const Navbar = ({ isActiveMobileMenu, setIsActiveMobileMenu, isSticky }) => {
 
         {/* <!-- action button --> */}
         <li>
-          {isResumeBtn ? (
-            <ButtonPrimary2 url={"#"}>Resume</ButtonPrimary2>
-          ) : (
-            <ButtonPrimary url={isIndexPage ? "#contact" : "/#contact"}>
-              Hire Me!
-            </ButtonPrimary>
-          )}
+          <ButtonPrimary url={isIndexPage ? "#contact" : "/#contact"}>
+            Hire Me!
+          </ButtonPrimary>
         </li>
         {/* <!-- open mobile menu button --> */}
         <li className="menu-bar lg:hidden">

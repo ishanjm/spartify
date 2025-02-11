@@ -8,24 +8,24 @@ const Logo = ({ isSticky }) => {
   return (
     <Link href="/" className="logo">
       <Image
-        className={`w-15 h-15  ${
+        className={`${
           isInnerPage && !isSticky
             ? "inline-block   "
             : " hidden dark:inline-block"
         } `}
-        src="/img/logo/logo.png"
+        src="/img/spartify/logo-white.png"
         alt=""
-        width={1000}
-        height={1000}
+        width={230}
+        height={60}
       />
       <Image
-        className={`w-15 h-15  ${
+        className={`${
           isInnerPage && !isSticky ? "hidden" : "inlin-block dark:hidden"
         }`}
-        src="/img/logo/logo-dark.png"
+        src="/img/spartify/logo-white.png"
         alt=""
-        width={1000}
-        height={1000}
+        width={230}
+        height={60}
       />
     </Link>
   );
