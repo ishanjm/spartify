@@ -8,12 +8,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="pt-60 bg-[url(/img/spartify/react-icons.png)] -mt-20 bg-no-repeat bg-center h-100 relative pt-130px lg:pt-40 xl:pt-200px pb-10 md:pb-30px lg:pb-50px after:absolute after:top-0 after:right-[50rem] after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:mr-5% overflow-hidden">
+    <section className="pt-60 bg-[url(/img/spartify/react-icons.png)] -mt-20 bg-no-repeat bg-center h-100 relative pt-130px lg:pt-40 xl:pt-200px pb-10 md:pb-30px lg:pb-50px after:absolute after:top-0 after:right-[45%] after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:mr-5% overflow-hidden">
       {/* <!-- intro tex --> */}
 
       <div className="intro_text"></div>
       <div className="container">
-        <div className="pt-[12rem] ">
+        <div className="pt-[7rem] ">
           <div className="text-center">
             <h1 className="text-size-35 md:text-size-38 lg:text-size-50 xl:text-6xl 2xl:text-size-60 xl:leading-1.2 mb-15px">
               Revolutionizing Test Platform <br />

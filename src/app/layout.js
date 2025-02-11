@@ -13,8 +13,8 @@ import { Suspense } from "react";
 import ThmeModeSwither from "@/components/shared/others/ThmeModeSwither";
 
 export const metadata = {
-  title: "Gerold - Personal Portfolio React  NextJs Template",
-  description: "Gerold - Personal Portfolio React  NextJs Template",
+  title: "Spartify",
+  description: "Revolutionizing Test Platform",
 };
 
 export default function RootLayout({ children }) {

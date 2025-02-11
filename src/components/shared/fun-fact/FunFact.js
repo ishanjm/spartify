@@ -14,10 +14,10 @@ const FunFact = () => {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setValue(14);
-      setValue2(50);
-      setValue3(1.5);
-      setValue4(14);
+      setValue(175000);
+      setValue2(500);
+      setValue3(2500);
+      setValue4(50);
     }, 1000);
     return () => {
       clearTimeout(timeoutId);
@@ -25,60 +25,50 @@ const FunFact = () => {
   }, []);
   return (
     <>
-      <div className="funfact-area mt-60px xl:mt-70px 2xl:mt-30">
+      <div className="funfact-area mt-60px xl:mt-70px 2xl:mt-36 relative after:absolute after:top-0 after:right-[45%] after:w-322px after:h-308px after:blur-[200px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:mr-5%">
         <div className="container">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-30px text-primary-color dark:text-body-color">
-            <div className="funfact-item flex flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
-              <div className="number text-size-45 md:text-size-55 xl:text-size-64 font-medium inline-flex items-cener">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-30px text-primary-color dark:text-body-color lg:mx-36">
+            <div className="border-r-2 funfact-item text-center flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
+              <div className="text">NPM Installs</div>
+              <div className="number text-size-32 font-medium inline-flex items-cener">
                 <Odometer
                   className="!font-sora tracking-[0.04em] inline-flex items-end"
                   value={value}
-                />
-              </div>
-              <div className="text">
-                Years of <br />
-                Experience
+                />{" "}
+                <span className="symbol"> +</span>
               </div>
             </div>
 
-            <div className="funfact-item flex flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
-              <div className="number text-size-45 md:text-size-55 xl:text-size-64 font-medium inline-flex items-cener">
+            <div className="border-r-2 funfact-item text-center flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
+              <div className="text">Live Projects</div>
+              <div className="number text-size-32 font-medium inline-flex items-cener">
                 <Odometer
-                  className="!font-sora tracking-[0.04em]"
+                  className="!font-sora tracking-[0.04em] inline-flex items-end"
                   value={value2}
                 />{" "}
                 <span className="symbol"> +</span>
               </div>
-              <div className="text">
-                Project <br />
-                Completed
-              </div>
             </div>
 
-            <div className="funfact-item flex flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
-              <div className="number text-size-45 md:text-size-55 xl:text-size-64 font-medium inline-flex items-cener">
+            <div className="border-r-2 funfact-item text-center flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
+              <div className="text">Github Stars</div>
+              <div className="number text-size-32 font-medium inline-flex items-cener">
                 <Odometer
-                  className="!font-sora tracking-[0.04em]"
+                  className="!font-sora tracking-[0.04em] inline-flex items-end"
                   value={value3}
                 />{" "}
-                <span className="symbol">K</span>
-              </div>
-              <div className="text">
-                Happy <br />
-                Clients
+                <span className="symbol"> +</span>
               </div>
             </div>
 
-            <div className="funfact-item flex flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
-              <div className="number text-size-45 md:text-size-55 xl:text-size-64 font-medium inline-flex items-cener">
+            <div className="funfact-item text-center flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-center lg:justify-start items-center gap-15px">
+              <div className="text">Components</div>
+              <div className="number text-size-32 font-medium inline-flex items-cener">
                 <Odometer
-                  className="!font-sora tracking-[0.04em]"
+                  className="!font-sora tracking-[0.04em] inline-flex items-end"
                   value={value4}
-                />
-              </div>
-              <div className="text">
-                Years of <br />
-                Experience
+                />{" "}
+                <span className="symbol"> +</span>
               </div>
             </div>
           </div>
