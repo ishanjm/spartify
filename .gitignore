@@ -9,6 +9,7 @@
 /coverage
 
 # next.js
+.next
 /.next
 /.next/
 /out/
@@ -31,3 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+.next/server/app-paths-manifest.json
+.next/server/chunks/ssr/_60d800._.js
+.next/server/chunks/ssr/_60d800._.js.map
+.next/server/app-paths-manifest.json

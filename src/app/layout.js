@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark overflow-x-auto">
-      <body className={`font-sora dark:bg-dark-color overflow-x-hidden`}>
+      <body className={`font-sora dark:bg-black overflow-x-hidden`}>
         <Suspense fallback={<></>}>{children}</Suspense>
         <ThmeModeSwither />
       </body>
