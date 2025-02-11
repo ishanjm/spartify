@@ -2,6 +2,8 @@ import ButtonSeondary from "@/components/shared/buttons/ButtonSeondary";
 import FunFact from "@/components/shared/fun-fact/FunFact";
 import ButtonPrimary from "@/components/shared/spartify/ButtonPrimary";
 import Socials from "@/components/shared/socials/Socials";
+import Brands1 from "@/components/sections/brands/Brands1";
+import PortfolioDetailsPrimary from "@/components/sections/portfolio-details/PortfolioDetailsPrimary";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -13,7 +15,7 @@ const Hero = () => {
 
       <div className="intro_text"></div>
       <div className="container">
-        <div className="pt-[7rem] ">
+        <div className="lg:pt-[7rem] ">
           <div className="text-center">
             <h1 className="text-size-35 md:text-size-38 lg:text-size-50 xl:text-6xl 2xl:text-size-60 xl:leading-1.2 mb-15px">
               Revolutionizing Test Platform <br />
@@ -31,9 +33,9 @@ const Hero = () => {
               enterprises.
             </h4>
             {/* <!-- action and social --> */}
-            <div className="md:mt-30px lg:mt-50px">
-              <div className="flex justify-center">
-                <div className=" grayscale justify-between flex w-[400px] h-[40px] bg-white rounded mx-2 py-2 px-2">
+            <div className=" mt-10 md:mt-30px lg:mt-50px">
+              <div className="flex justify-center flex-col sm:flex-row">
+                <div className="mb-2 sm:mb-0 grayscale justify-between flex sm:w-[400px] h-[40px] bg-white rounded mx-2 py-2 px-2">
                   <span className="text-gray-color">
                     npm i -g @spartify/cli
                   </span>
@@ -66,6 +68,7 @@ const Hero = () => {
       </div>
       {/* <!-- fanfact --> */}
       <FunFact />
+      <PortfolioDetailsPrimary />
     </section>
   );
 };
