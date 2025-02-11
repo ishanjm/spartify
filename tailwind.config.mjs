@@ -26,7 +26,7 @@ container
 /** @type {import('tailwindcss').Config} */
 
 // variables
-const primaryColor = "#8750f7";
+const primaryColor = "#0dd765";
 const primaryColor2 = "#9b8dff";
 const primaryColorLight = "#140c1c";
 const seondaryColor = "#2a1454";
