@@ -16,7 +16,7 @@ const Header = ({ isSticky }) => {
 
   return (
     <header
-      className={`header-area  ${
+      className={`header-area bg-black ${
         isSticky ? "header-2 header-sticky" : "header-absolute"
       }`}
     >

@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="dark overflow-x-auto">
       <body className={`font-sora dark:bg-black overflow-x-hidden`}>
         <Suspense fallback={<></>}>{children}</Suspense>
-        <ThmeModeSwither />
+        {/* <ThmeModeSwither /> */}
       </body>
     </html>
   );
