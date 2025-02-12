@@ -20,7 +20,7 @@ const DemoRequest = () => {
               </h1>
             </div>
             <div className=" mt-10 ">
-              <div className="flex justify-center sm:gap-2 flex-col sm:flex-row wow fadeInUp">
+              <div className="flex justify-center gap-y-1 sm:gap-2 flex-col sm:flex-row wow fadeInUp">
                 <ButtonPrimary className="py-[10px] wow fadeInLeft">
                   View Platform
                 </ButtonPrimary>

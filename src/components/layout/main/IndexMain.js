@@ -7,6 +7,7 @@ import Resume1 from "@/components/sections/resume/Resume1";
 import Services1 from "@/components/sections/services/Services1";
 import Skills1 from "@/components/sections/skills/Skills1";
 import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
+import Partners from "@/components/sections/partners/Partners";
 import { usePortfolioRenderContext } from "@/context_api/PortfolioRenderContext";
 
 const IndexMain = () => {
@@ -14,6 +15,7 @@ const IndexMain = () => {
   return (
     <main>
       <Hero />
+      <Partners />
       <Services1 />
       <Portfolio1 />
       <Resume1 />
