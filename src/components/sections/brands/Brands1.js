@@ -9,23 +9,24 @@ const Brands1 = () => {
   const brands = getBrands();
   return (
     <section id="testimonials">
-      <div className="pt-60px md:pt-20 lg:pt-100px">
+      <div className="lg:mt-10 pt-60px md:pt-20 lg:pt-100px">
         <div className="container">
           <div className="testimonials">
             {/* <!-- section heading --> */}
-            <div>
+            <div className="text-center ">
               <div className="mb-5 wow fadeInUp" data-wow-delay=".3s">
                 <h2
-                  className="text-xs inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent mb-15px wow fadeInLeft uppercase"
+                  className="text-2xl inline-block text-primary-color leading-1.2  mb-15px wow fadeInLeft uppercase"
                   data-wow-delay=".3s"
                 >
-                  Worked With Largest Brands
+                  LEADING ENTERPRISE TEST TEAMS ACCELERATE THEIR ROADMAPS WITH
+                  SPARTIFY.IO
                 </h2>
               </div>
             </div>
             {/* <!-- slider --> */}
 
-            <div className=" wow fadeInUp" data-wow-delay=".3s">
+            <div className="lg:mt-16 wow fadeInUp" data-wow-delay=".3s">
               <Swiper
                 spaceBetween={30}
                 slidesPerView={2}
