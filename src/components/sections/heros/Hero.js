@@ -3,6 +3,7 @@ import FunFact from "@/components/shared/fun-fact/FunFact";
 import ButtonPrimary from "@/components/shared/spartify/ButtonPrimary";
 import Socials from "@/components/shared/socials/Socials";
 import Brands1 from "@/components/sections/brands/Brands1";
+import DemoRequest from "@/components/sections/demo-request/DemoRequest";
 import PortfolioDetailsPrimary from "@/components/sections/portfolio-details/PortfolioDetailsPrimary";
 import Image from "next/image";
 import Link from "next/link";
@@ -75,6 +76,7 @@ const Hero = () => {
       {/* <!-- fanfact --> */}
       <FunFact />
       <Brands1 />
+      <DemoRequest />
     </section>
   );
 };
