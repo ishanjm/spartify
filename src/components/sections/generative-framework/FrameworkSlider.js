@@ -3,9 +3,12 @@ const FramworkSlider = () => {
   return (
     <>
       <hr className="opacity-10 bg-gradient-to-r from-stone-950 mb-10" />
-      <div className="container mt-10 relative">
+      <div
+        className="container my-10  relative wow fadeInUp"
+        data-wow-delay=".5s"
+      >
         <div className="after:absolute after:top-24 after:right-[45%] after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:mr-5% overflow-hidden"></div>
-        <div className="relative">
+        <div className="relative  wow fadeInLeft">
           <div className="sm:absolute grid sm:grid-cols-2 content-center p-10 place-items-center h-full">
             <div>
               <h3 className="text-center sm:text-left text-2xl inline-block text-primary-color leading-1.2  mb-15px uppercase">
@@ -37,6 +40,7 @@ const FramworkSlider = () => {
           />
         </div>
       </div>
+      <hr className="opacity-10 bg-gradient-to-r from-stone-950 my-10" />
     </>
   );
 };

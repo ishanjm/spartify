@@ -36,6 +36,7 @@ const blackColor = "#050709";
 const grayColor = "#636363";
 const grayColor2 = "#747779";
 const grayColor3 = "#22272c";
+const grayColor4 = "#1c2435";
 const borderColor = "#d9d9d9";
 const creamLightColor = "#f6f3fc";
 const darkColor = "#0f0715";
@@ -73,6 +74,7 @@ module.exports = {
         "gray-color": grayColor,
         "gray-color-2": grayColor2,
         "gray-color-3": grayColor3,
+        "gray-color-4": grayColor4,
         "dark-color": darkColor,
         "border-color": borderColor,
         "cream-light-color": creamLightColor,
