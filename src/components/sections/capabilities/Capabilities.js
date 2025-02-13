@@ -20,7 +20,7 @@ const data2 = [
 const Capabilities = () => {
   return (
     <section className="container">
-      <div className="grid sm:grid-cols-3 place-items-center sm:gap-10">
+      <div className="grid sm:grid-cols-3 place-items-center sm:gap-10 mb-20">
         <div className="bounceInLeft wow" data-wow-delay=".5s">
           <h2 className="wow fadeInUp text-center sm:text-left text-2xl inline-block text-primary-color leading-1.2  mb-15px uppercase">
             ENTERPRISE

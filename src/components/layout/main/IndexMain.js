@@ -10,6 +10,7 @@ import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
 import Integrations from "@/components/sections/integrations/Integration";
 import Partners from "@/components/sections/partners/Partners";
 import Capabilities from "@/components/sections/capabilities/Capabilities";
+import MagorSuccess from "@/components/sections/major-success/MagorSuccess";
 import { usePortfolioRenderContext } from "@/context_api/PortfolioRenderContext";
 
 const IndexMain = () => {
@@ -20,6 +21,7 @@ const IndexMain = () => {
       <Partners />
       <Integrations />
       <Capabilities />
+      <MagorSuccess />
       <Services1 />
       <Portfolio1 />
       <Resume1 />
