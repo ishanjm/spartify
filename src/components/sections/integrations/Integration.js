@@ -59,8 +59,9 @@ const Integrations = () => {
         <div className="grid sm:grid-cols-4 sm:grid-rows-2 gap-8">
           {data.map(({ title, description }, id) => (
             <div
+              data-wow-delay=".5s"
               key={id}
-              className="bg-gray-color-3 p-8 sm:aspect-[6/5] rounded"
+              className="wow fadeInUp bg-gray-color-3 p-8 sm:aspect-[6/5] rounded border border-transparent hover:border-primary-color hover:bg-seondary-color transition-all duration-500"
             >
               <Image
                 className="mb-2"
@@ -75,6 +76,7 @@ const Integrations = () => {
           ))}
         </div>
       </div>
+      <hr className="opacity-10 bg-gradient-to-r from-stone-950 my-20" />
     </section>
   );
 };
