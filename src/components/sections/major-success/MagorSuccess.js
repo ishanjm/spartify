@@ -1,5 +1,6 @@
 import Image from "next/image";
 import WhatsNext from "@/components/sections/whats-next/WhatsNext";
+import Documentation from "@/components/sections/documentation/Documentation";
 const MagorSuccess = () => {
   return (
     <section className="container">
@@ -31,6 +32,9 @@ const MagorSuccess = () => {
       </div>
       <div className="relative">
         <WhatsNext />
+      </div>
+      <div className="relative">
+        <Documentation />
       </div>
     </section>
   );
