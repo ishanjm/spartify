@@ -200,7 +200,7 @@ module.exports = {
 
       // typography
       fontFamily: {
-        sora: "'Sora', sans-serif",
+        sora: "'Poppins', sans-serif",
         fontawesome: `"Font Awesome 6 Pro"`,
       },
       fontSize: {
