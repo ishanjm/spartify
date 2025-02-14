@@ -1,6 +1,7 @@
 import Image from "next/image";
 import WhatsNext from "@/components/sections/whats-next/WhatsNext";
 import Documentation from "@/components/sections/documentation/Documentation";
+import FooterBanner from "@/components/sections/footer-banner/FooterBanner";
 const MagorSuccess = () => {
   return (
     <section className="container">
@@ -35,6 +36,9 @@ const MagorSuccess = () => {
       </div>
       <div className="relative">
         <Documentation />
+      </div>
+      <div className="relative">
+        <FooterBanner />
       </div>
     </section>
   );

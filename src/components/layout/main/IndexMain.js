@@ -22,13 +22,13 @@ const IndexMain = () => {
       <Integrations />
       <Capabilities />
       <MagorSuccess />
-      <Services1 />
+      {/* <Services1 />
       <Portfolio1 />
       <Resume1 />
       <Skills1 />
       <Testimonials1 />
       <Blogs1 />
-      <Contact1 />
+      <Contact1 /> */}
     </main>
   );
 };

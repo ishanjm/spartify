@@ -8,9 +8,9 @@ const data1 = [
 const Documentation = () => {
   return (
     <div className="container grid sm:grid-cols-2 sm:gap-10">
-      <div className="bg-black p-10">
+      <div className="bg-black p-10 wow bounceIn" data-wow-delay=".5s">
         <h1 className="text-2xl 2xl:text-size-38 xl:leading-1.2 mb-15px">
-          Marektign Documentation
+          Marketing Documentation
         </h1>
         <div className="grid grid-rows-4 gap-2 mt-5">
           {data1.map((item, id) => (
@@ -33,7 +33,7 @@ const Documentation = () => {
           ))}
         </div>
       </div>
-      <div className="bg-black p-10">
+      <div className="bg-black p-10 wow bounceIn" data-wow-delay=".5s">
         <h1 className="text-2xl 2xl:text-size-38 xl:leading-1.2 mb-15px">
           Developer Doc
         </h1>
