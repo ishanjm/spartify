@@ -12,8 +12,8 @@
     },
     {
       "name":"Prices",
-      "path":"#resume",
-      "path2":"/#resume"  
+      "path":"/prices",
+      "path2":"/prices"  
     },
     {
       "name":"Developer",
