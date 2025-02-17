@@ -11,8 +11,21 @@ const PriceCard = ({ portfolio, index }) => {
     : {};
   const isLight = themeMode === "light" ? true : false;
   return (
-    <div className={`portfolio-item ${dataFilter}`}>
-      <h1>{text}</h1>
+    <div
+      className={`portfolio-item ${dataFilter} grid grid-cols-4 gap-2 p-2 w-full`}
+    >
+      <div>
+        <h1>{text}</h1>
+      </div>
+      <div>
+        <h1>{text}</h1>
+      </div>
+      <div>
+        <h1>{text}</h1>
+      </div>
+      <div>
+        <h1>{text}</h1>
+      </div>
     </div>
   );
 };

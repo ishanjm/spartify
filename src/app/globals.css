@@ -427,6 +427,16 @@ img {
   transition: all 0.5s ease;
 }
 
+.pricing .portfolio-box .portfolio-sizer {
+  width: 100%;
+}
+.pricing .portfolio-box .gutter-sizer {
+  width: 40%;
+}
+.pricing .portfolio-box .portfolio-item {
+  margin-bottom: 4%;
+  width: 100%;
+}
 /* portfolio css */
 .portfolio-box .portfolio-sizer {
   width: 48%;
