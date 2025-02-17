@@ -199,6 +199,12 @@ const Footer = () => {
               <h5>Compliance standards</h5>
               <span>|</span>
               <h5>Cookie Policy</h5>
+              <Image
+                src="/img/spartify/GDPR.png"
+                alt=""
+                width={120}
+                height={10}
+              />
             </div>
           </div>
         </div>
