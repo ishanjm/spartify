@@ -34,6 +34,7 @@ const Capabilities = () => {
             {data1.map((item, id) => (
               <li key={id} className="flex my-3">
                 <Image
+                  className="h-[20px]"
                   width="21"
                   height="21"
                   alt="check"
@@ -49,6 +50,7 @@ const Capabilities = () => {
             {data2.map((item, id) => (
               <li key={id} className="flex my-3">
                 <Image
+                  className="h-[20px]"
                   width="21"
                   height="21"
                   alt="check"

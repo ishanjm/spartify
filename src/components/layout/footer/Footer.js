@@ -103,7 +103,7 @@ const Footer = () => {
         }`}
       >
         <div className="container">
-          <div className="flex flex-col sm:flex-row justify-between pt-50px pb-5 md:pt-60px">
+          <div className="flex flex-col lg:flex-row justify-between pt-50px pb-5 md:pt-60px">
             <div className="footer-logo h-75px mb-6">
               <Link href="/">
                 <Image
@@ -116,7 +116,7 @@ const Footer = () => {
             </div>
             {/* <!-- nav --> */}
             <div>
-              <ul className="nav flex flex-wrap justify-center items-center gap-x-35px">
+              <ul className="nav flex  justify-center items-center gap-x-35px">
                 {footerLinks.map((item, index) => (
                   <li key={index} className="nav_item group relative">
                     <Link
@@ -127,7 +127,7 @@ const Footer = () => {
                     </Link>
                     <ul>
                       {item.SubMenu.map((itemSub, index2) => (
-                        <li key={index2}>
+                        <li key={index2} className="text-gray-400">
                           <Link href={itemSub.url}>{itemSub.text}</Link>
                         </li>
                       ))}

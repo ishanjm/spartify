@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ButtonPrimary4 from "@/components/shared/buttons/ButtonPrimary4";
 import ButtonPrimary from "@/components/shared/spartify/ButtonPrimary";
 
 const DemoRequest = () => {
@@ -24,9 +24,9 @@ const DemoRequest = () => {
                 <ButtonPrimary className="py-[10px] wow fadeInLeft">
                   View Platform
                 </ButtonPrimary>
-                <ButtonPrimary className="py-[10px] wow fadeInRight">
-                  Dequest Demo
-                </ButtonPrimary>
+                <ButtonPrimary4 className="py-[10px] wow fadeInRight">
+                  Request Demo
+                </ButtonPrimary4>
               </div>
             </div>
           </div>
