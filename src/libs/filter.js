@@ -41,7 +41,7 @@ const filter = () => {
           gutter: ".portfolio-box .gutter-sizer",
         },
       });
-
+      iso.arrange({ filter: ".monthly" }); // added for price containser to set default view
       // Filter items on button click
       filterButtons.forEach((button) => {
         button.addEventListener("click", () => {

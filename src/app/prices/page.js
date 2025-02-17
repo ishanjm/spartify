@@ -1,9 +1,12 @@
 import PageWrapper from "@/components/shared/wrappers/PageWrapper";
+import Hero from "@/components/sections/prices/Hero";
+import Plans from "@/components/sections/prices/Plans";
 
 const Prices = () => {
   return (
     <PageWrapper isInnerPage={true}>
-      <h1>test</h1>
+      <Hero />
+      <Plans />
     </PageWrapper>
   );
 };
