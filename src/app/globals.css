@@ -39,6 +39,7 @@ Description: Gerold - Personal Portfolio Tailwind Template
 
 /* variable */
 :root {
+  --spartify-green:#0dd765;
   --body-color: #dddddd;
   --primary-color: #8750f7;
   --primary-color-light: #140c1c;
@@ -475,24 +476,15 @@ img {
   filter: blur(150px);
 }
 .button-group .active-bg {
-  border-radius: 50px;
+  border-radius: 5px;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   position: absolute;
   z-index: 1;
-  background: var(--primary-color);
-  background: -o-linear-gradient(
-    190deg,
-    var(--secondary-color) 0%,
-    var(--primary-color) 100%
-  );
-  background: linear-gradient(
-    260deg,
-    var(--secondary-color) 0%,
-    var(--primary-color) 100%
-  );
+  background: var(--spartify-green);
+ 
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;

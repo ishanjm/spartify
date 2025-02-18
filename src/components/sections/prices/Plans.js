@@ -231,11 +231,11 @@ const Plans = () => {
   }, []);
   return (
     <section className="container pricing">
-      <div className="my-10">
-        <div className="portfolio-filter">
+      <div className="my-10 relative">
+        <div className="portfolio-filter after:absolute after:top-36 after:right-[45%] after:w-222px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:mr-5% overflow-hidden">
           <ButtonGroup />
           <div
-            className="portfolio-box wow fadeInUp mt-30px md:mt-10 lg:mt-50px wow fadeInUp w-full"
+            className="portfolio-box wow fadeInUp mt-30px md:mt-10 lg:mt-50px wow fadeInUp w-full "
             data-wow-delay=".6s"
           >
             <div className="portfolio-sizer"></div>

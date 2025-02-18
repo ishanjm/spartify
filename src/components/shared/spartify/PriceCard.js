@@ -13,10 +13,20 @@ const PriceCard = ({ portfolio, index }) => {
   const isLight = themeMode === "light" ? true : false;
   return (
     <div
-      className={`portfolio-item ${dataFilter} grid grid-cols-4 gap-2 p-2 w-full`}
+      className={`portfolio-item ${dataFilter} grid grid-rows-1 lg:grid-cols-4 gap-10 p-2 w-full`}
     >
       {data.map(({ title, description, price, annualPrice, facts }, idx) => (
-        <div key={idx} className="bg-gray-color-3 py-10 px-5">
+        <div
+          key={idx}
+          className={`bg-gray-color-3 py-10 px-5 ${
+            idx === 0 ? "-my-5 !pt-0" : ""
+          }`}
+        >
+          {idx === 0 && (
+            <div className="p-2 bg-[#373737] -mx-5 mb-2 text-center">
+              <h4>Try Spartify</h4>
+            </div>
+          )}
           <h3 className="text-xl text-primary-color mb-5">{title}</h3>
           <p>{description}</p>
           <p className="mt-5">Starting at</p>
