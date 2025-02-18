@@ -7,11 +7,221 @@ import React, { useEffect } from "react";
 const portfolio = [
   {
     dataFilter: "monthly",
-    text: "testq",
+    data: [
+      {
+        title: "Starter",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Teams",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Business",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Enterprice",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+    ],
   },
   {
     dataFilter: "uxui",
-    text: "testddcdd",
+    data: [
+      {
+        title: "Starter Annual",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Teams Annual",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Business Annual",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+      {
+        title: "Enterprice Annual",
+        description: "For teams to learn and grow in the direction of QAOps.",
+        annualPrice: 799,
+        price: 67,
+        facts: [
+          {
+            iconPath: "/img/spartify/user.png",
+            description: "Users",
+            count: 1,
+          },
+          {
+            iconPath: "/img/spartify/play.png",
+            description: "Test results",
+            count: "120,000",
+          },
+          {
+            iconPath: "/img/spartify/users.png",
+            description: "Teams",
+          },
+          {
+            iconPath: "/img/spartify/edit.png",
+            description: "Unliited tests",
+          },
+        ],
+      },
+    ],
   },
 ];
 const Plans = () => {
