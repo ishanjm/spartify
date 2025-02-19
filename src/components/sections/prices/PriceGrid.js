@@ -12,7 +12,10 @@ const PriceGrid = () => {
           INTEGRATIONS & PLUGINS
         </h2>
       </div>
-      <table className="border-collapse border border-slate-500 w-full text-center bg-spartifyDark">
+      <table
+        className="wow fadeInUp border-collapse border border-slate-500 w-full text-center bg-spartifyDark"
+        data-wow-delay=".5s"
+      >
         <thead>
           <tr>
             <th className="border border-slate-600"></th>

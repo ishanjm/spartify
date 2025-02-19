@@ -8,7 +8,7 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="w-full my-10">
+    <div className="w-full my-10 wow fadeInUp" data-wow-delay=".5s">
       {items.map((item, index) => (
         <div key={index} className="">
           <button
@@ -60,7 +60,10 @@ const FAQ = () => {
   return (
     <section className="container">
       <div className="text-center mb-10 mt-36">
-        <h1 className="text-size-35 md:text-size-38 lg:text-size-46 xl:text-6xl 2xl:text-size-60 xl:leading-1.2 mb-15px">
+        <h1
+          data-wow-delay=".5s"
+          className="wow fadeInUp text-size-35 md:text-size-38 lg:text-size-46 xl:text-6xl 2xl:text-size-60 xl:leading-1.2 mb-15px"
+        >
           Frequently Asked Questions
         </h1>
       </div>
