@@ -26,6 +26,7 @@ container
 /** @type {import('tailwindcss').Config} */
 
 // variables
+const spartifyDark = "#121a27";
 const primaryColor = "#0dd765";
 const primaryColor2 = "#9b8dff";
 const primaryColorLight = "#140c1c";
@@ -64,6 +65,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        spartifyDark: spartifyDark,
         "primary-color": primaryColor,
         "primary-color-2": primaryColor2,
         "primary-color-light": primaryColorLight,
